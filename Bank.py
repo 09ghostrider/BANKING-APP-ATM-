@@ -14,15 +14,18 @@ Pin = [1234, 2345, 3456, 4567]
 balance = [1000, 500, 100, 2000]
 Start = ['Yes', 'yes', 'YES']
 amo = int
+While = False
 
 start = input("DO YOU WANT TO USE THE ATM: ")
-while start in Start:
+if start in Start:
   print("WELCOME TO ATM")
   sleep(1)
+  While = True
 
-  while True:
+  while While == True:
     print("\nLOGIN")
     print("SIGNUP")
+    print("EXIT")
     log = str(input("OPTION: "))
     
     if log == 'LOGIN':
@@ -150,6 +153,10 @@ while start in Start:
       else:
         print("\nTRANSACTION DECLINED")
         continue
+
+    elif log == 'EXIT':
+        print("\nVISIT AGAIN")
+        While = False
     
     else:
       print("INVALID OPTION")
