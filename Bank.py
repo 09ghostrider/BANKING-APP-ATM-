@@ -155,7 +155,8 @@ if start in Start:
         continue
 
     elif log == 'EXIT':
-        print("\nVISIT AGAIN")
+        print("\nTHANK YOU")
+        print("VISIT AGAIN")
         While = False
     
     else:
