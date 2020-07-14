@@ -90,13 +90,43 @@ if start in Start:
                     continue
 
                 else:
-                  print("INVALID ACCOUNT")
-                  continue
+                    print("INVALID ACCOUNT")
+                    continue
 
               elif option == '5':
-                print("\nTHANK YOU FOR USING OUR BANK")
-                print("VISIT AGAIN")
-                break
+                    sleep(1)
+                    print("CLOSING ACCOUNT")
+                    sleep(0.5)
+                    print("..")
+                    sleep(0.5)
+                    print("....")
+                    sleep(0.5)
+                    print("......")
+                    sleep(0.5)
+                    print("........")
+                    sleep(0.5)
+                    print("..........")
+                    sleep(0.5)
+                    print("............")
+                    sleep(1)
+                    print("LOGING OUT")
+                    sleep(0.5)
+                    print("..")
+                    sleep(0.5)
+                    print("....")
+                    sleep(0.5)
+                    print("......")
+                    sleep(0.5)
+                    print("........")
+                    sleep(0.5)
+                    print("..........")
+                    sleep(0.5)
+                    print("............")
+                    sleep(1)
+                    print("VISIT AGAIN")
+
+                    sleep(2)
+                    break
 
               else:
                 print("INVALID OPTION")
