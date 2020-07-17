@@ -1,6 +1,16 @@
 from time import sleep
 import random
 
+Blue="\33[0;34m"
+Cyan="\033[1;36m"
+Purple="\033[0;35m" 
+Green="\033[0;32m"
+Orange ="\033[0;33m"
+Pink = "\033[1;31m"
+DarkBlue = "\033[1;34m"
+White = "\033[1;37m"
+Gray = "\033[1;30m"
+
 P = int
 B = int
 AccountNumber = int
@@ -102,12 +112,6 @@ if start in Start:
                     print("....")
                     sleep(0.5)
                     print("......")
-                    sleep(0.5)
-                    print("........")
-                    sleep(0.5)
-                    print("..........")
-                    sleep(0.5)
-                    print("............")
                     sleep(1)
                     print("LOGING OUT")
                     sleep(0.5)
@@ -116,12 +120,6 @@ if start in Start:
                     print("....")
                     sleep(0.5)
                     print("......")
-                    sleep(0.5)
-                    print("........")
-                    sleep(0.5)
-                    print("..........")
-                    sleep(0.5)
-                    print("............")
                     sleep(1)
                     print("VISIT AGAIN")
 
